@@ -261,7 +261,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/madhav182004/weather-app.git",
+      source_code_link: "https://github.com/John-C7/Pinecone-Web3.0.git",
     },
   ];
   
