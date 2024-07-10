@@ -45,11 +45,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React js Developer",
+      title: "MERN Developer",
       icon: mobile,
     },
     {
@@ -201,9 +201,30 @@ import {
   
   const projects = [
     {
+      name: "Wanderlust",
+      description:
+        "A comprehensive platform that allows users to rent hotels, and houses, and offers curated recommendations for popular stay for your vacation. It also allows you to rent your place or room like in AirBnb.",
+      tags: [
+        {
+          name: "mongoDB",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/madhav182004/wanderlust.git",
+    },
+    {
       name: "Portfolio Website",
       description:
-        "Experience 'My Portfolio,a groundbreaking blend of React.js, Three.js, and Framer Motion, creating captivating 3D web environments. Harnessing the power of React.js for structure, Three.js for 3D rendering, and Framer Motion for fluid animations.",
+        "A groundbreaking blend of React.js, Three.js, and Framer Motion, creating captivating 3D web environments. Harnessing the power of React.js for structure, Three.js for 3D rendering, and Framer Motion for fluid animations.",
       tags: [
         {
           name: "react js",
@@ -222,47 +243,26 @@ import {
       source_code_link: "https://github.com/madhav182004/My-Portfolio.git",
     },
     {
-      name: "Weather App",
+      name: "Pinecone",
       description:
-        "Introducing the Weather App, crafted with React.js and powered by the OpenWeather API. Seamlessly track weather conditions worldwide with intuitive design and real-time updates, making planning effortless and informed.",
+        "Decentralized for carbon credit market. Developed a platform for trading carbon credits. Enabled trading of carbon credits between organizations, promoting net-zero carbon emissions.",
       tags: [
         {
           name: "react js",
           color: "blue-text-gradient",
         },
         {
-          name: "weather api",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
-        // {
-        //   name: "",
-        //   color: "pink-text-gradient",
-        // },
+        {
+          name: "/transactions and /dashboard routes",
+          color: "pink-text-gradient",
+        },
       ],
       image: jobit,
       source_code_link: "https://github.com/madhav182004/weather-app.git",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
   ];
   
   export { services, technologies, experiences , projects };

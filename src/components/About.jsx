@@ -48,15 +48,8 @@ const About = () => {
         variants={fadeIn("","",0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a Computer Science student at Dayananda Sagar Academy 
-        of Technology and Management, who is passionate about 
-        developing innovative software solutions and user-friendly 
-        interfaces. I have proficiency in C++, Java, Data Structures, 
-        HTML, CSS, and JavaScript, React.js, Next.js, Node.js, Express.js, 
-        EJS, RESTful APIs, mySQL, MongoDB, 
-        and have completed multiple online 
-        courses to enhance my technical expertise and stay adaptable 
-        to industry trends. I'm a quick learner and collaborate 
+        As a Computer Science student at Dayananda Sagar, I am passionate about developing innovative software solutions and user-friendly interfaces.
+        I have proficiency in JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB, EJS, RESTful API's, MySQL, C++, Java, Data Structures, HTML, CSS and have completed multiple online courses to enhance my technical expertise and stay adaptable to industry trends. I'm a quick learner and collaborate 
         closely with clients to create efficient, scalable, and 
         user-friendly solutions that solve real world problems. 
         Let's work together to bring your ideas to life!
